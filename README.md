@@ -8,5 +8,5 @@ Steps
 # open command prompt and navigate to directory where code has been downloaded
 # type npm install in command prompt and press ENTER
 # after installation successfully then type npm test in cmd and press enter
-# First firewall window can appear, allow the window
+# First time, firewall window can appear. So allow the window
 # Automation code will run successfully. Ensure that corresponding machine has Chrome browser.
