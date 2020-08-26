@@ -19,11 +19,7 @@ exports.config = {
     specs: [
         './test/specs/**.js'
     ],
-    suites: {
-        sample: [
-            './test/specs/sample.js'
-        ]
-    },
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -95,7 +91,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://webdriver.io',
+    baseUrl: 'https://google.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -185,8 +181,7 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function (capabilities, specs) {
-       browser.url('/')   
-       browser.maximizeWindow()
+
     },
     /**
      * Runs before a WebdriverIO command gets executed.
