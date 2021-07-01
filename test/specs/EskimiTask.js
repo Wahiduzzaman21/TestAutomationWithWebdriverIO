@@ -34,7 +34,7 @@ describe('Task', () => {
     })
     it('Open eskimi login page in new window and maximize', () => {
 
-        browser.newWindow(eskimiurl, 'eskimilogipage')
+        browser.newWindow(eskimiurl, 'eskimiloginpage')
         browser.maximizeWindow() 
         expect(browser).toHaveTitle('Eskimi DSP - Your programmatic partner');
         browser.saveScreenshot("./screenshots/5.OpenEskimiLoginPage.png")  

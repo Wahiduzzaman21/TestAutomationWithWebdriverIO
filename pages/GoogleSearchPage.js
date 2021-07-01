@@ -4,7 +4,8 @@ class GoogleSearchPage extends Page {
 
     get  searchbox() { return $('.SDkEP input') }
 
-    get dspEskimiLink(){ return $('#search > div:nth-child(1) >div > div > .rc >.r> a')}
+    get dspEskimiLink(){ return $('#rso > div:nth-child(1) > div > div > div > div > div > div.yuRUbf > a')}
+    
 
 }
 

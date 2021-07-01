@@ -1,4 +1,4 @@
-{ 
+{
   "name": "practice",
   "version": "1.0.0",
   "description": "",
@@ -17,7 +17,7 @@
     "@wdio/cli": "^6.4.2",
     "@wdio/local-runner": "^6.4.2",
     "@wdio/mocha-framework": "^6.4.0",
-    "@wdio/selenium-standalone-service": "^6.4.0",
+    "@wdio/selenium-standalone-service": "^7.7.3",
     "@wdio/spec-reporter": "^6.4.0",
     "@wdio/sync": "^6.4.0"
   }
